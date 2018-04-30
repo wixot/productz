@@ -1,0 +1,28 @@
+{% extends "auth_base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{#{% block title %}#}
+{#    Login#}
+{#{% endblock title %}#}
+
+{% block navbar %}
+
+{% endblock navbar %}
+
+{% block wrapper %}
+    <div class="row">
+        <div class="col-lg-4 ml-auto mr-auto">
+            <div class="card card-register">
+                <h3 class="title">Welcome</h3>
+                {{ wtf.quick_form(form) }}
+                <div class="forgot">
+                    <a href="#" class="btn btn-link btn-danger">Forgot password?</a>
+                    <a href="/auth/register" class="btn btn-link btn-danger">Register</a>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

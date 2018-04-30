@@ -1,0 +1,4 @@
+Hello {{ user.username }},
+
+TConfirm your account via clicking on the following link:
+{{ url_for('auth.confirm', token=token, _external=True) }}
