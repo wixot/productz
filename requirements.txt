@@ -34,7 +34,7 @@ python-dateutil==2.7.0
 pytz==2018.3
 requests==2.20.0
 requests-oauthlib==0.8.0
-rsa==3.4.2
+rsa==4.1
 simplejson==3.13.2
 six==1.11.0
 ulid==1.1
